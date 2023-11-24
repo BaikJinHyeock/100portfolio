@@ -12,12 +12,14 @@ const Main = () => {
             <div className="wrap_container">
                 <div className='bg_Line'>
                     <div className='bg_Box'></div>
-                    <div className='bg_Box'></div>
+                    <div className='bg_Box'>Web FrontEnd</div>
                     <div className='bg_Box'></div>
                 </div>
                 <div className='wrap_grid'>
                     <div className='main_container'>
+                        <div className='main_box'>
 
+                        </div>
 
                     </div>
                 </div>
