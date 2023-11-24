@@ -1,0 +1,27 @@
+@import "../abstracts/variables";
+
+.left_container {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    // position: relative;
+    background-color: black;
+    height: 100vh;
+    width: 10%;
+    z-index: 9999;
+
+    div {
+        transform: rotateZ(90deg);
+        position: absolute;
+        top: 4rem;
+
+        span {
+            display: block;
+            line-height: 1.45rem;
+            font-size: 2rem;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    }
+}

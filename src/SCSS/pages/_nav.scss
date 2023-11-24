@@ -1,0 +1,37 @@
+@import "../abstracts/variables";
+
+header{
+    position: fixed;
+    top: 0;
+    right: 10%;
+    left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #1b1b1b;
+    z-index: 99999;
+
+    .nav_left{
+        line-height: 1.6rem;
+        font-size: 1.4rem;
+    }
+
+    .nav_right{
+        display: flex;
+        justify-content: space-around;
+        gap: 16px;
+
+        span{
+            display: block;
+            padding: 1rem;
+            cursor: pointer;
+            font-weight: 600;
+            transition-duration: 200ms;
+
+            &:hover{
+                color: #dfe9ac;
+            }
+        }
+    }
+}

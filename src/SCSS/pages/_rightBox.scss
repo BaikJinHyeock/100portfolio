@@ -1,0 +1,11 @@
+@import "../abstracts/variables";
+
+.right_container{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 10%;
+    height: 100vh;
+    background-color: antiquewhite;
+    z-index: 999;
+}
