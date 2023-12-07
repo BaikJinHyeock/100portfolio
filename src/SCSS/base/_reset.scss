@@ -2,6 +2,18 @@
     box-sizing: border-box;
   }
   
+*::-webkit-scrollbar {
+  width: 5px;  /* 스크롤바의 너비 */
+}
+*::-webkit-scrollbar-thumb {
+  height: 30%; /* 스크롤바의 길이 */
+  background: rgba(127, 255, 212, 0.641); /* 스크롤바의 색상 */
+  
+  border-radius: 10px;
+}
+*::-webkit-scrollbar-track {
+  background: rgba(33, 122, 244, .1);  /*스크롤바 뒷 배경 색상*/
+}
   html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video{
     margin: 0;
     padding: 0;

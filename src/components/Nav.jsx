@@ -16,9 +16,9 @@ const Nav = () => {
             </div>
             <div className='nav_right'>
                 <span>Intro ¹</span>
-                <span>Work of piece ²</span>
-                <span>Skill abillity ³</span>
-                <span>Project ⁴</span>
+                <span>Project ²</span>
+                <span>Work of piece ³</span>
+                <span>Skill abillity ⁴</span>
             </div>
         </header>
     )
