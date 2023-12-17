@@ -19,6 +19,9 @@ const Nav = () => {
                 <span>Project ²</span>
                 <span>Work of piece ³</span>
                 <span>Skill abillity ⁴</span>
+                <span>Skill abillity ⁴</span>
+                <span>Skill abillity ⁴</span>
+
             </div>
         </header>
     )
