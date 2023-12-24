@@ -1,7 +1,7 @@
 import React, { useState, useEffect }  from 'react';
 import "../SCSS/pages/_main.scss";
 import Nav from "../components/Nav";
-import RightBox from "../components/RightBox";
+// import RightBox from "../components/RightBox";
 import LeftBox from "../components/LeftBox";
 
 const Main = () => {
@@ -32,7 +32,7 @@ const Main = () => {
                     </div>
                 </div>
             </div>
-            <RightBox />
+            {/* <RightBox /> */}
         </>
     )
 }
